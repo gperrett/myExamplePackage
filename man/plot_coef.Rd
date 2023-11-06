@@ -17,7 +17,7 @@ Plot regression effects
 }
 \examples{
 x <- rnorm(1000)
-y <- x*1.5 + rnomr(1000)
+y <- x*1.5 + rnorm(1000)
 lin_reg <- lm(y ~ x)
 plot_coef(lin_reg)
 

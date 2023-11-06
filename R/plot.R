@@ -2,6 +2,7 @@
 #'
 #' @param fit a regression of class lm or glm
 #' @import ggplot2
+#' @importFrom stats confint
 #' @return a ggplot
 #' @export
 #'
